@@ -51,6 +51,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .table-holder {
@@ -104,4 +105,13 @@
 
 .table-holder td:first-child {
     border: none;
+}
+
+@media (max-width: 720px) {
+    .graph-holder{
+        width: 100%;
+    }
+    .table-holder {
+        width: 100%;
+    }
 }
